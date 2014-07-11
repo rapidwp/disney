@@ -1,5 +1,242 @@
-/* line 3, ../sass/custom.scss */
-.brand {
-  background: #333333;
+/* line 7, ../sass/custom.scss */
+body, container, container-fluid {
+  background: white;
+  font-family: "Droid Serif", serif;
+  color: #666666;
+}
+
+/* line 13, ../sass/custom.scss */
+header {
+  height: 95px;
+  background: white url(../images/header_line.png) no-repeat center bottom;
+}
+
+/* line 19, ../sass/custom.scss */
+h1.logo {
+  background: url(../images/logo.png) no-repeat;
+}
+
+/* line 23, ../sass/custom.scss */
+h1.logo a {
+  display: block;
+  position: relative;
+  text-indent: -5000px;
+  height: 50px;
+}
+
+/* line 30, ../sass/custom.scss */
+.sub-nav {
+  height: 84px;
+  background: #eee;
+  border-bottom: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+/* line 37, ../sass/custom.scss */
+.sub-nav a.btn {
+  background: #bbb;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+/* line 43, ../sass/custom.scss */
+.sub-nav a.btn:hover {
+  background-color: #888 !important;
+  color: #fff !important;
+}
+
+/* line 49, ../sass/custom.scss */
+.navbar-default {
+  background: none;
+  border: none;
+}
+
+/* line 54, ../sass/custom.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+
+/* line 59, ../sass/custom.scss */
+.navbar-default .navbar-nav > .active > a {
+  background-color: #33a1bd;
+  color: #fff;
+}
+
+/* line 65, ../sass/custom.scss */
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background: #888888;
   color: white;
+}
+
+/* line 70, ../sass/custom.scss */
+.main-book {
+  padding: 30px;
+  background: url(../images/main_book_bg.png) no-repeat left top;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+/* line 77, ../sass/custom.scss */
+.main-book h2 {
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+/* line 84, ../sass/custom.scss */
+.main-book h3 {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 0;
+  margin-top: 5px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* line 93, ../sass/custom.scss */
+.main-book h4 {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* line 98, ../sass/custom.scss */
+.main-book p {
+  margin-top: 20px;
+}
+
+/* line 102, ../sass/custom.scss */
+.h-div {
+  text-align: center;
+  background: url(../images/h-div.gif) no-repeat center 50%;
+}
+
+/* line 107, ../sass/custom.scss */
+.main-book .h-div {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+/* line 112, ../sass/custom.scss */
+.main-book .h-div span {
+  background: #dee7e8;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* line 118, ../sass/custom.scss */
+.h-div span {
+  width: auto;
+  padding: 5px;
+  background: #fff;
+}
+
+/* line 125, ../sass/custom.scss */
+.main-book a.btn {
+  background: #fff;
+  display: block;
+  text-align: left;
+  color: #33a1bd;
+  font-weight: bold;
+}
+
+/* line 133, ../sass/custom.scss */
+.main-book a.btn:hover {
+  background: #33a1bd;
+  color: #fff;
+}
+
+/* line 138, ../sass/custom.scss */
+.main-book a.btn span {
+  float: right;
+}
+
+/* line 142, ../sass/custom.scss */
+.h-div span {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 15px;
+}
+
+/* line 148, ../sass/custom.scss */
+.about-book p {
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 30px;
+  margin-top: 25px;
+}
+
+/* line 156, ../sass/custom.scss */
+.list-unstyled.details {
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+/* line 163, ../sass/custom.scss */
+.list-unstyled.details span {
+  font-weight: normal;
+}
+
+/* line 167, ../sass/custom.scss */
+span.author {
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* line 173, ../sass/custom.scss */
+p.review {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* line 178, ../sass/custom.scss */
+.h-div {
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+/* line 183, ../sass/custom.scss */
+.also-bouht a {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: #f4f4f4;
+  text-align: center;
+  border: 1px solid #e5e5e5;
+}
+
+/* line 192, ../sass/custom.scss */
+.also-bouht a:hover {
+  text-decoration: none;
+}
+
+/* line 196, ../sass/custom.scss */
+.also-bouht a span {
+  display: block;
+}
+
+/* line 200, ../sass/custom.scss */
+.also-bouht a span.book-name {
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* line 206, ../sass/custom.scss */
+.also-bouht a span.book-author {
+  color: #666666;
+  margin-bottom: 15px;
+  font-size: 13px;
+}
+
+/* line 212, ../sass/custom.scss */
+.also-bouht a span.book-price {
+  color: #33a1bd;
+  font-size: 24px;
+  font-weight: bold;
 }

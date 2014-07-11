@@ -1,6 +1,217 @@
-$brand-back: #333;
-$brand-front: #fff;
-.brand {
-    background: $brand-back;
-    color: $brand-front;
+$default-back: #fff;
+$default-font: "Droid Serif", serif;
+$default-font-color: #666;
+$brand-color: #33a1bd;
+$nav-hover: #888;
+
+body, container, container-fluid {
+    background: $default-back;
+    font-family: $default-font;
+    color: $default-font-color;
 }
+
+header {
+    height:95px;
+    background: $default-back url(../images/header_line.png) no-repeat center bottom;
+    
+}
+
+h1.logo {
+    background: url(../images/logo.png) no-repeat;
+}
+
+h1.logo a {
+    display: block;
+    position: relative;
+    text-indent: -5000px;
+    height: 50px;
+}
+
+.sub-nav {
+    height: 84px;
+    background:#eee;
+    border-bottom: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.sub-nav a.btn {
+    background: #bbb;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.sub-nav a.btn:hover {
+    background-color: #888 !important;
+    color:#fff !important;
+}
+
+
+.navbar-default {
+    background:none;
+    border:none;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+  //  font-size: 18px;
+}
+
+.navbar-default .navbar-nav > .active > a {
+    background-color: $brand-color;
+    color:#fff;
+}
+
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background: $nav-hover;
+    color:#fff
+}
+
+.main-book {
+    padding:30px;
+    background: url(../images/main_book_bg.png) no-repeat left top;
+    margin-top:40px;
+    margin-bottom: 60px;
+}
+
+.main-book h2 {
+    font-size:24px;
+    color: #000;
+    margin-bottom:0;
+    font-weight: bold;
+}
+
+.main-book h3 {
+    font-size:16px;
+    color: #444;
+    margin-bottom:0;
+    margin-top:5px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.main-book h4 {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.main-book p {
+    margin-top:20px;
+}
+
+.h-div {
+    text-align: center;
+    background: url(../images/h-div.gif) no-repeat center 50%;
+}
+
+.main-book .h-div {
+    margin-bottom: 20px;
+    margin-top:0;
+}
+
+.main-book .h-div span {
+    background: #dee7e8;
+    font-size:18px;
+    font-weight: bold;
+}
+
+.h-div span {
+    width:auto;
+    padding: 5px;
+    background:#fff;
+}
+
+
+.main-book a.btn {
+    background:#fff;
+    display:block;
+    text-align:left;
+    color: $brand-color;
+    font-weight:bold;
+}
+
+.main-book a.btn:hover {
+    background:$brand-color;
+    color: #fff;
+}
+
+.main-book a.btn span {
+    float: right;
+}
+
+.h-div span {
+    font-size:24px;
+    font-weight:bold;
+    padding: 15px;
+}
+
+.about-book p {
+    text-align:center;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 30px;
+    margin-top:25px;
+}
+
+.list-unstyled.details {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size:18px;
+    margin-bottom: 40px;
+}
+
+.list-unstyled.details span {
+    font-weight: normal;
+}
+
+span.author {
+    display:block;
+    font-weight:bold;
+    font-size:16px;
+}
+
+p.review {
+    padding-top:0;
+    padding-bottom:0;
+}
+
+.h-div {
+    margin-bottom:30px;
+    margin-top:40px;
+}
+
+.also-bouht a {
+    display:block;
+    padding-top:15px;
+    padding-bottom:15px;
+    background: #f4f4f4;
+    text-align:center;
+    border:1px solid #e5e5e5;
+}
+
+.also-bouht a:hover {
+    text-decoration:none;
+}
+
+.also-bouht a span {
+    display:block
+}
+
+.also-bouht a span.book-name {
+    color:#000;
+    font-size:16px;
+    font-weight: bold;
+}
+
+.also-bouht a span.book-author {
+    color: $default-font-color;
+    margin-bottom:15px;
+    font-size:13px;
+}
+
+.also-bouht a span.book-price {
+    color: $brand-color;
+    font-size:24px;
+    font-weight: bold;
+}
+
