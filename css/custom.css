@@ -37,47 +37,49 @@ h1.logo a {
   background: #bbb;
   padding-bottom: 10px;
   padding-top: 10px;
+  margin-right: 20px;
+  color: #fff;
 }
 
-/* line 43, ../sass/custom.scss */
+/* line 45, ../sass/custom.scss */
 .sub-nav a.btn:hover {
   background-color: #888 !important;
   color: #fff !important;
 }
 
-/* line 49, ../sass/custom.scss */
+/* line 51, ../sass/custom.scss */
 .navbar-default {
   background: none;
   border: none;
 }
 
-/* line 54, ../sass/custom.scss */
+/* line 56, ../sass/custom.scss */
 .navbar-default .navbar-nav > li > a {
   color: #fff;
 }
 
-/* line 59, ../sass/custom.scss */
-.navbar-default .navbar-nav > .active > a {
+/* line 61, ../sass/custom.scss */
+.nav-pills.nav-justified > .active > a {
   background-color: #33a1bd;
   color: #fff;
 }
 
-/* line 65, ../sass/custom.scss */
+/* line 67, ../sass/custom.scss */
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   background: #888888;
   color: white;
 }
 
-/* line 70, ../sass/custom.scss */
+/* line 72, ../sass/custom.scss */
 .main-book {
   padding: 30px;
   background: url(../images/main_book_bg.png) no-repeat left top;
   margin-top: 40px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 
-/* line 77, ../sass/custom.scss */
+/* line 79, ../sass/custom.scss */
 .main-book h2 {
   font-size: 24px;
   color: #000;
@@ -85,7 +87,7 @@ h1.logo a {
   font-weight: bold;
 }
 
-/* line 84, ../sass/custom.scss */
+/* line 86, ../sass/custom.scss */
 .main-book h3 {
   font-size: 16px;
   color: #444;
@@ -95,112 +97,119 @@ h1.logo a {
   font-style: italic;
 }
 
-/* line 93, ../sass/custom.scss */
+/* line 95, ../sass/custom.scss */
 .main-book h4 {
   font-size: 14px;
-  margin-bottom: 20px;
 }
 
-/* line 98, ../sass/custom.scss */
-.main-book p {
-  margin-top: 20px;
+/* line 99, ../sass/custom.scss */
+span.dots {
+  font-size: 32px;
 }
 
-/* line 102, ../sass/custom.scss */
+/* line 103, ../sass/custom.scss */
 .h-div {
   text-align: center;
   background: url(../images/h-div.gif) no-repeat center 50%;
 }
 
-/* line 107, ../sass/custom.scss */
+/* line 108, ../sass/custom.scss */
 .main-book .h-div {
   margin-bottom: 20px;
   margin-top: 0;
 }
 
-/* line 112, ../sass/custom.scss */
+/* line 113, ../sass/custom.scss */
 .main-book .h-div span {
   background: #dee7e8;
   font-size: 18px;
   font-weight: bold;
 }
 
-/* line 118, ../sass/custom.scss */
+/* line 119, ../sass/custom.scss */
 .h-div span {
   width: auto;
   padding: 5px;
   background: #fff;
 }
 
-/* line 125, ../sass/custom.scss */
+/* line 126, ../sass/custom.scss */
 .main-book a.btn {
   background: #fff;
   display: block;
   text-align: left;
   color: #33a1bd;
   font-weight: bold;
+  height: 35px;
 }
 
-/* line 133, ../sass/custom.scss */
+/* line 135, ../sass/custom.scss */
 .main-book a.btn:hover {
   background: #33a1bd;
   color: #fff;
 }
 
-/* line 138, ../sass/custom.scss */
+/* line 140, ../sass/custom.scss */
+.main-book a.btn span.m-name {
+  float: left;
+}
+
+/* line 144, ../sass/custom.scss */
 .main-book a.btn span {
   float: right;
 }
 
-/* line 142, ../sass/custom.scss */
+/* line 148, ../sass/custom.scss */
 .h-div span {
   font-size: 24px;
   font-weight: bold;
   padding: 15px;
 }
 
-/* line 148, ../sass/custom.scss */
+/* line 154, ../sass/custom.scss */
 .about-book p {
   text-align: center;
   font-size: 18px;
   line-height: 30px;
   padding: 30px;
-  margin-top: 25px;
 }
 
-/* line 156, ../sass/custom.scss */
+/* line 161, ../sass/custom.scss */
 .list-unstyled.details {
   font-weight: bold;
-  margin-top: 20px;
   font-size: 18px;
-  margin-bottom: 40px;
 }
 
-/* line 163, ../sass/custom.scss */
+/* line 166, ../sass/custom.scss */
 .list-unstyled.details span {
   font-weight: normal;
 }
 
-/* line 167, ../sass/custom.scss */
+/* line 170, ../sass/custom.scss */
 span.author {
   display: block;
   font-weight: bold;
   font-size: 16px;
 }
 
-/* line 173, ../sass/custom.scss */
+/* line 176, ../sass/custom.scss */
 p.review {
   padding-top: 0;
   padding-bottom: 0;
 }
 
-/* line 178, ../sass/custom.scss */
+/* line 181, ../sass/custom.scss */
 .h-div {
   margin-bottom: 30px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
-/* line 183, ../sass/custom.scss */
+/* line 186, ../sass/custom.scss */
+.also-bouht {
+  margin-bottom: 70px;
+}
+
+/* line 190, ../sass/custom.scss */
 .also-bouht a {
   display: block;
   padding-top: 15px;
@@ -210,33 +219,312 @@ p.review {
   border: 1px solid #e5e5e5;
 }
 
-/* line 192, ../sass/custom.scss */
+/* line 199, ../sass/custom.scss */
 .also-bouht a:hover {
   text-decoration: none;
 }
 
-/* line 196, ../sass/custom.scss */
+/* line 203, ../sass/custom.scss */
 .also-bouht a span {
   display: block;
 }
 
-/* line 200, ../sass/custom.scss */
+/* line 207, ../sass/custom.scss */
 .also-bouht a span.book-name {
   color: #000;
   font-size: 16px;
   font-weight: bold;
 }
 
-/* line 206, ../sass/custom.scss */
+/* line 213, ../sass/custom.scss */
 .also-bouht a span.book-author {
   color: #666666;
   margin-bottom: 15px;
   font-size: 13px;
 }
 
-/* line 212, ../sass/custom.scss */
+/* line 219, ../sass/custom.scss */
 .also-bouht a span.book-price {
   color: #33a1bd;
   font-size: 24px;
   font-weight: bold;
+}
+
+/* line 225, ../sass/custom.scss */
+.btn.buy {
+  padding: 10px 15px;
+  font-size: 18px;
+  line-height: 1;
+}
+
+/* line 231, ../sass/custom.scss */
+.nav.nav-pills a {
+  font-size: 18px;
+}
+
+/* line 235, ../sass/custom.scss */
+#footer {
+  padding: 20px 0;
+  background: #eee;
+  border-top: 1px solid #ddd;
+  font-family: Lato, sans-serif;
+}
+
+/* line 242, ../sass/custom.scss */
+#footer h3 {
+  color: #33a1bd;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+/* line 250, ../sass/custom.scss */
+#footer ul a {
+  color: #444;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+/* line 256, ../sass/custom.scss */
+#footer .copyright {
+  font-size: 12px;
+  color: #888;
+  text-align: right;
+}
+
+/* line 262, ../sass/custom.scss */
+#footer .copyright a {
+  width: 48px;
+  height: 48px;
+  display: block;
+  float: right;
+  margin-left: 10px;
+  margin-top: 15px;
+  background: url(../images/icon_fb.png) no-repeat;
+}
+
+/* line 272, ../sass/custom.scss */
+#footer .copyright a.twt {
+  background: url(../images/icon_twitter.png) no-repeat;
+}
+
+/* line 276, ../sass/custom.scss */
+.top-menu {
+  padding-right: 0;
+}
+
+/* line 280, ../sass/custom.scss */
+.top-menu ul {
+  float: right;
+  margin-top: 25px;
+}
+
+/* line 285, ../sass/custom.scss */
+.top-menu ul li {
+  display: block;
+  float: left;
+  font-family: "Lato",sans-serif;
+  margin-left: 35px;
+}
+
+/* line 292, ../sass/custom.scss */
+.top-menu ul li a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #444;
+  text-transform: uppercase;
+  line-height: 40px;
+}
+
+/* line 300, ../sass/custom.scss */
+.top-menu ul li a:hover {
+  color: #33a1bd;
+  text-decoration: none;
+}
+
+/* line 305, ../sass/custom.scss */
+.top-menu button[type="submit"] {
+  display: block;
+  float: left;
+  position: relative;
+  left: -4px;
+  width: 50px;
+  height: 44px;
+  background-image: url(../images/button_search.png);
+  border: none;
+  border-radius: 0 4px 4px 0;
+}
+
+/* line 317, ../sass/custom.scss */
+.top-menu input[type="text"] {
+  width: 230px;
+  height: 44px;
+  display: block;
+  float: left;
+  border-width: 2px;
+}
+
+/* line 325, ../sass/custom.scss */
+.home-banner {
+  background: url(../images/banner_back.jpg) no-repeat center top;
+  height: 402px;
+}
+
+/* line 330, ../sass/custom.scss */
+.home-banner .container {
+  text-align: center;
+  vertical-align: middle;
+  height: 402px;
+  font-size: 22px;
+  font-style: italic;
+  color: #444;
+}
+
+/* line 339, ../sass/custom.scss */
+.home-banner p {
+  position: relative;
+  top: 40%;
+}
+
+/* line 344, ../sass/custom.scss */
+.home-banner p span {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  color: #666;
+}
+
+/* line 351, ../sass/custom.scss */
+.also-bouht.popular {
+  margin-bottom: 10px;
+}
+
+/* line 355, ../sass/custom.scss */
+.also-bouht.popular div {
+  margin-bottom: 30px;
+}
+
+/* line 359, ../sass/custom.scss */
+.explore-topic {
+  position: relative;
+  height: 247px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 30px 65px;
+}
+
+/* line 367, ../sass/custom.scss */
+.explore-topic.journey {
+  background: url(../images/journey_back.jpg) no-repeat center top;
+}
+
+/* line 371, ../sass/custom.scss */
+.explore-topic.human {
+  background: url(../images/human_back.jpg) no-repeat center top;
+}
+
+/* line 375, ../sass/custom.scss */
+.explore-topic.wisdom {
+  background: url(../images/wisdom_back.jpg) no-repeat center top;
+}
+
+/* line 379, ../sass/custom.scss */
+.explore-topic.circle {
+  background: url(../images/circle_back.jpg) no-repeat center top;
+}
+
+/* line 383, ../sass/custom.scss */
+.explore-topic.community {
+  background: url(../images/community_back.jpg) no-repeat center top;
+}
+
+/* line 387, ../sass/custom.scss */
+.explore-topic span {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: block;
+}
+
+/* line 395, ../sass/custom.scss */
+.explore-topic p {
+  font-size: 16px;
+  color: #ddd;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+/* line 402, ../sass/custom.scss */
+.explore-topic a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  border: 2px solid #fff;
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  margin-left: -45px;
+}
+
+/* line 413, ../sass/custom.scss */
+.explore-topic a:hover {
+  color: #33a1bd;
+  border-color: #33a1bd;
+}
+
+/* line 418, ../sass/custom.scss */
+.h-div.brand {
+  color: #33a1bd;
+}
+
+/* line 422, ../sass/custom.scss */
+p.thought {
+  text-align: center;
+  padding: 0 10%;
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+
+/* line 430, ../sass/custom.scss */
+a.cross, a.herder {
+  width: 210px;
+  height: 70px;
+  border: 3px solid #bbbbbb;
+  display: block;
+  float: left;
+  margin-bottom: 40px;
+  margin-left: 45px;
+  background: url(../images/button_cross.png) no-repeat 15px center;
+}
+
+/* line 441, ../sass/custom.scss */
+a.cross:hover, a.herder:hover {
+  border-color: #33a1bd;
+}
+
+/* line 445, ../sass/custom.scss */
+a.herder {
+  background: url(../images/button_herder.png) no-repeat center center;
+}
+
+@media (max-width: 1152px) {
+  /* line 451, ../sass/custom.scss */
+  .nav.nav-pills a,
+  .btn.buy {
+    font-size: 14px;
+    font-weight: normal;
+  }
+
+  /* line 456, ../sass/custom.scss */
+  a.cross {
+    margin-left: 0;
+  }
+
+  /* line 460, ../sass/custom.scss */
+  a.herder {
+    margin-left: 30px;
+  }
 }
