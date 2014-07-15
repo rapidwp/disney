@@ -1624,7 +1624,7 @@ p {
   font-weight: 300;
   line-height: 1.4;
 }
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   /* line 62, ../../sass/bootstrap/_type.scss */
   .lead {
     font-size: 21px;
@@ -1868,7 +1868,7 @@ dd {
 .dl-horizontal dd:after {
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   /* line 211, ../../sass/bootstrap/_type.scss */
   .dl-horizontal dt {
     float: left;
@@ -2047,7 +2047,7 @@ pre code {
 .container:after {
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   /* line 10, ../../sass/bootstrap/_grid.scss */
   .container {
     width: 750px;
@@ -2366,7 +2366,7 @@ pre code {
   margin-left: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   /* line 27, ../../sass/bootstrap/mixins/_grid-framework.scss */
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
@@ -3356,7 +3356,7 @@ table th[class*="col-"] {
   background-color: #ebcccc;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 799px) {
   /* line 171, ../../sass/bootstrap/_tables.scss */
   .table-responsive {
     width: 100%;
@@ -3903,7 +3903,7 @@ select[multiple].input-lg,
   color: #737373;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   /* line 400, ../../sass/bootstrap/_forms.scss */
   .form-inline .form-group, .navbar-form .form-group {
     display: inline-block;
@@ -3994,7 +3994,7 @@ select[multiple].input-lg,
 .form-horizontal .form-group:after {
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   /* line 498, ../../sass/bootstrap/_forms.scss */
   .form-horizontal .control-label {
     text-align: right;
@@ -4007,13 +4007,13 @@ select[multiple].input-lg,
   top: 0;
   right: 15px;
 }
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   /* line 520, ../../sass/bootstrap/_forms.scss */
   .form-horizontal .form-group-lg .control-label {
     padding-top: 14.3px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   /* line 530, ../../sass/bootstrap/_forms.scss */
   .form-horizontal .form-group-sm .control-label {
     padding-top: 6px;
@@ -4500,7 +4500,7 @@ tbody.collapse.in {
   margin-bottom: 1px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   /* line 205, ../../sass/bootstrap/_dropdowns.scss */
   .navbar-right .dropdown-menu {
     right: 0;
@@ -5033,7 +5033,7 @@ tbody.collapse.in {
   top: auto;
   left: auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   /* line 177, ../../sass/bootstrap/_navs.scss */
   .nav-justified > li, .nav-tabs.nav-justified > li {
     display: table-cell;
@@ -5062,7 +5062,7 @@ tbody.collapse.in {
 .nav-tabs.nav-justified > .active > a:focus {
   border: 1px solid #dddddd;
 }
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   /* line 206, ../../sass/bootstrap/_navs.scss */
   .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
     border-bottom: 1px solid #dddddd;
@@ -5110,7 +5110,7 @@ tbody.collapse.in {
 .navbar:after {
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   /* line 11, ../../sass/bootstrap/_navbar.scss */
   .navbar {
     border-radius: 4px;
@@ -5126,7 +5126,7 @@ tbody.collapse.in {
 .navbar-header:after {
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   /* line 31, ../../sass/bootstrap/_navbar.scss */
   .navbar-header {
     float: left;
@@ -5155,7 +5155,7 @@ tbody.collapse.in {
 .navbar-collapse.in {
   overflow-y: auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   /* line 50, ../../sass/bootstrap/_navbar.scss */
   .navbar-collapse {
     width: auto;
@@ -5201,7 +5201,7 @@ tbody.collapse.in {
   margin-right: -15px;
   margin-left: -15px;
 }
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   /* line 109, ../../sass/bootstrap/_navbar.scss */
   .container > .navbar-header,
   .container > .navbar-collapse,
@@ -5217,7 +5217,7 @@ tbody.collapse.in {
   z-index: 1000;
   border-width: 0 0 1px;
 }
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   /* line 128, ../../sass/bootstrap/_navbar.scss */
   .navbar-static-top {
     border-radius: 0;
@@ -5234,7 +5234,7 @@ tbody.collapse.in {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   /* line 139, ../../sass/bootstrap/_navbar.scss */
   .navbar-fixed-top,
   .navbar-fixed-bottom {
@@ -5267,7 +5267,7 @@ tbody.collapse.in {
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
 }
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   /* line 178, ../../sass/bootstrap/_navbar.scss */
   .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
     margin-left: -15px;
@@ -5302,7 +5302,7 @@ tbody.collapse.in {
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
 }
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   /* line 190, ../../sass/bootstrap/_navbar.scss */
   .navbar-toggle {
     display: none;
@@ -5319,7 +5319,7 @@ tbody.collapse.in {
   padding-bottom: 10px;
   line-height: 20px;
 }
-@media (max-width: 767px) {
+@media (max-width: 799px) {
   /* line 240, ../../sass/bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu {
     position: static;
@@ -5344,7 +5344,7 @@ tbody.collapse.in {
     background-image: none;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   /* line 229, ../../sass/bootstrap/_navbar.scss */
   .navbar-nav {
     float: left;
@@ -5365,7 +5365,7 @@ tbody.collapse.in {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   /* line 289, ../../sass/bootstrap/_navbar.scss */
   .navbar-left {
     float: left !important;
@@ -5388,13 +5388,13 @@ tbody.collapse.in {
   margin-top: 8px;
   margin-bottom: 8px;
 }
-@media (max-width: 767px) {
+@media (max-width: 799px) {
   /* line 315, ../../sass/bootstrap/_navbar.scss */
   .navbar-form .form-group {
     margin-bottom: 5px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   /* line 303, ../../sass/bootstrap/_navbar.scss */
   .navbar-form {
     width: auto;
@@ -5446,7 +5446,7 @@ tbody.collapse.in {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   /* line 375, ../../sass/bootstrap/_navbar.scss */
   .navbar-text {
     float: left;
@@ -5518,7 +5518,7 @@ tbody.collapse.in {
   background-color: #e7e7e7;
   color: #555555;
 }
-@media (max-width: 767px) {
+@media (max-width: 799px) {
   /* line 470, ../../sass/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #777777;
@@ -5619,7 +5619,7 @@ tbody.collapse.in {
   background-color: #090909;
   color: white;
 }
-@media (max-width: 767px) {
+@media (max-width: 799px) {
   /* line 604, ../../sass/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
     border-color: #090909;
@@ -6014,7 +6014,7 @@ a.badge:hover, a.badge:focus {
 .jumbotron .container {
   max-width: 100%;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
   /* line 6, ../../sass/bootstrap/_jumbotron.scss */
   .jumbotron {
     padding-top: 48px;
@@ -7167,7 +7167,7 @@ button.close {
   overflow: scroll;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   /* line 136, ../../sass/bootstrap/_modals.scss */
   .modal-dialog {
     width: 600px;
@@ -7649,7 +7649,7 @@ button.close {
   text-shadow: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
   /* line 216, ../../sass/bootstrap/_carousel.scss */
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .glyphicon-chevron-right,
@@ -7772,7 +7772,7 @@ button.close {
   display: none !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 799px) {
   /* line 7, ../../sass/bootstrap/mixins/_responsive-visibility.scss */
   .visible-xs {
     display: block !important;
@@ -7794,28 +7794,28 @@ button.close {
     display: table-cell !important;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 799px) {
   /* line 49, ../../sass/bootstrap/_responsive-utilities.scss */
   .visible-xs-block {
     display: block !important;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 799px) {
   /* line 54, ../../sass/bootstrap/_responsive-utilities.scss */
   .visible-xs-inline {
     display: inline !important;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 799px) {
   /* line 59, ../../sass/bootstrap/_responsive-utilities.scss */
   .visible-xs-inline-block {
     display: inline-block !important;
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 800px) and (max-width: 991px) {
   /* line 7, ../../sass/bootstrap/mixins/_responsive-visibility.scss */
   .visible-sm {
     display: block !important;
@@ -7837,21 +7837,21 @@ button.close {
     display: table-cell !important;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 800px) and (max-width: 991px) {
   /* line 68, ../../sass/bootstrap/_responsive-utilities.scss */
   .visible-sm-block {
     display: block !important;
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 800px) and (max-width: 991px) {
   /* line 73, ../../sass/bootstrap/_responsive-utilities.scss */
   .visible-sm-inline {
     display: inline !important;
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 800px) and (max-width: 991px) {
   /* line 78, ../../sass/bootstrap/_responsive-utilities.scss */
   .visible-sm-inline-block {
     display: inline-block !important;
@@ -7944,13 +7944,13 @@ button.close {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 799px) {
   /* line 18, ../../sass/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-xs {
     display: none !important;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 800px) and (max-width: 991px) {
   /* line 18, ../../sass/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-sm {
     display: none !important;

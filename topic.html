@@ -8,6 +8,19 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.css" rel="stylesheet" media="screen">
     <link href="css/custom.css" rel="stylesheet" media="screen">
+      
+      <script src="http://code.jquery.com/jquery.js"></script>
+      <script src="js/masonry.pkgd.min.js"></script>
+    <script>
+  $(document).ready(function(){
+
+    $(".btn.more").click(function () {
+      $(this).toggleClass("loading");
+    });
+    
+  });
+  </script>
+      
   </head>
   <body>
     
@@ -63,29 +76,53 @@
         </nav>
     </div>
     
-        
+    
+    
     <div class="container">
-        <div class="row author">
-          
-          <div class="col-md-12 author-image">
-          <img src="images/author.jpg" alt="" class="img-circle"/>
-          </div>
-          
-            <div class="col-md-12 h-div"><span>Richard Rohr</span></div>
+      
+      <div class="row topic-banner">
+        <div class="col-md-10 col-md-offset-1">
+          <h1>The Spiritual Journey</h1>
+          <p>Every true spiritual journey is a quest. Which means that we set out to discover something. Not just anything, but about who we truly are. And what life is about. Those are big, uncomfortable questions.</p>
+        </div>
+      </div>
+      
+        <div class="row about-book topic">
             
-            <p>Richard Rohr, O.F.M., is a Franciscan priest and founder of the New Jerusalem Community in Cincinnati, Ohio in 1971 and the 
-Center for Action and Contemplation in Albuquerque, New Mexico in 1986. He currently serves as director of the Center for Action and Contemplation. The Center serves a dual purpose: it is a radical voice for peaceful, nonviolent social change as well as a forum for renewal and encouragement for the individual who seeks direction from and understanding of God’s will and love.</p>
-            
-<p>Richard is best known for his numerous recorded teachings, and through the Center’s quarterly publication, Radical Grace. He is a regular contributing writer for Sojourners, Tikkun, and The Huffington Post. His most recent recorded teachings include Creation as the Body of God; Loving the Two Halves of Life: The Further Journey; and God As Us! the Sacred Feminine and the Sacred Masculine.
-</p>
-
-<p>Rohr's bestselling books include The Naked Now, Everything Belongs, Adam’s Return, Simplicity, and The Enneagram.</p>
-
-<p>Richard has been a featured essayist on NPR’s “This I Believe” and a guest of Dr. Mehmet Oz on the “Oprah and Friends” radio show.  He appears in the 2006 documentary, ONE, that features spiritual teachers from around the world.</p>
-
-<div class="col-md-12 h-div"><span>Other Books From Richard Rohr (10)</span></div>
-
-          <div class="row also-bouht">
+            <div class="col-md-12 h-div"><span>Books (29)</span></div>
+            <div class="row also-bouht topic">
+                <div class="col-md-3">
+                    <a href="#">
+                       <img src="images/book-also.png" alt="" title="" />
+                       <span class="book-name">The Naked Now</span>
+                       <span class="book-author">Richard Rohr</span>
+                       <span class="book-price">$19.95</span>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                       <img src="images/book-also.png" alt="" title="" />
+                       <span class="book-name">The Naked Now</span>
+                       <span class="book-author">Richard Rohr</span>
+                       <span class="book-price">$19.95</span>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                       <img src="images/book-also.png" alt="" title="" />
+                       <span class="book-name">The Naked Now</span>
+                       <span class="book-author">Richard Rohr</span>
+                       <span class="book-price">$19.95</span>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                       <img src="images/book-also.png" alt="" title="" />
+                       <span class="book-name">The Naked Now</span>
+                       <span class="book-author">Richard Rohr</span>
+                       <span class="book-price">$19.95</span>
+                    </a>
+                </div>
                 <div class="col-md-3">
                     <a href="#">
                        <img src="images/book-also.png" alt="" title="" />
@@ -120,8 +157,57 @@ Center for Action and Contemplation in Albuquerque, New Mexico in 1986. He curre
                 </div>
                 
             </div>
-
         </div>
+        
+        <a class="btn more"><span>View More...</span></a>
+        
+        
+        
+        <div class="row about-book topic">
+            
+            <div class="col-md-12 h-div"><span>Authors (14)</span></div>
+            <div class="row also-bouht topic books">
+                <div class="col-md-3">
+                    <a href="#">
+                       <img src="images/author.jpg" class="img-circle" alt="" title="" />
+                       <span class="author-name">Richard Rohr</span>
+                       <span class="count">3 books</span>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                       <img src="images/author.jpg" class="img-circle" alt="" title="" />
+                       <span class="author-name">Richard Rohr</span>
+                       <span class="count">3 books</span>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                       <img src="images/author.jpg" class="img-circle" alt="" title="" />
+                       <span class="author-name">Richard Rohr</span>
+                       <span class="count">3 books</span>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                       <img src="images/author.jpg" class="img-circle" alt="" title="" />
+                       <span class="author-name">Richard Rohr</span>
+                       <span class="count">3 books</span>
+                    </a>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <a class="btn more"><span>View More...</span></a>
+        
+        <div class="row">
+        <div class="col-md-12 h-div"><span>Related Contents (45)</span></div>
+        
+        
+        </div>
+        
     </div>
     
     <div class="container-fluid" id="footer">
@@ -157,8 +243,8 @@ Center for Action and Contemplation in Albuquerque, New Mexico in 1986. He curre
         </div>
     </div>
 
-    
-    <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
+    
+    
   </body>
 </html>
