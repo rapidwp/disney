@@ -538,6 +538,10 @@ a.btn.more {
     color: #666;
 }
 
+.nav-pills .mobile-view {
+    display: none;
+}
+
 @media (max-width: 800px) {
     
     header {
@@ -597,6 +601,194 @@ a.btn.more {
         width:44px;
         height: 44px;
     }
+    
+    body.full .container,
+    body.full #footer
+    {
+        display: none;
+    }
+    
+     body.full .container-fluid.sub-nav,
+     body.full .navbar-default.container{
+        display: block !important
+     }
+     
+     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border: none
+     }
+    
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color: #fff;
+        }
+    
+    body.full .navbar-header {
+        width: 78px;
+        height: 115px;
+        background: #FFF;
+        position: fixed;
+        left: 10px;
+        top: 10px;
+        border-bottom: 45px solid $brand-color;
+        }
+        
+    body.full .home-banner {
+        display: none;
+    }
+    
+    body.full ul.nav-pills {
+        position: fixed;
+        left:70px;
+        height: 600px;
+        padding-top: 15px;
+        background: $brand-color url(../images/back-mob-nav.png) left top;
+        top:0;
+        padding-left: 25px;
+        font-family: Lato, sans-serif;
+        text-transform: uppercase
+    }
+    
+    body.full ul.nav-pills li a{
+        text-align: left;
+        background: transparent url(../images/back-mob-nav-li.png) no-repeat left bottom;
+        padding-bottom: 18px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        
+        
+    }
+    
+    body.full ul.nav-pills li a:hover {
+        background-color: transparent !important;
+        color: $brand-color !important;
+    }
+    
+    body.full .nav-pills.nav-justified > .active > a {
+        background-color: transparent;
+        color: $brand-color;
+    }
+    
+    body.full header {
+        border: none;
+    }
+    
+    .col-md-3 {
+        width: 45%;
+        padding:0 5px;
+        float: left;
+        margin-bottom: 10px !important;
+    }
+    
+    .main-book .col-md-3.social {
+        width: 100%;
+        text-align: left;
+        margin-left: 10px;
+        margin-bottom: 25px !important;}
+        
+    .purchase-buttons .col-md-3 {
+        width: 50%;
+        
+    }
+    
+    .purchase-buttons a {
+        font-size: 18px !important;
+    }
+    
+    .main-book a.btn {
+        height: 40px;
+    }
+    
+    .row.about-book .mobile {
+        display: none;
+    }
+        
+    .main-book .col-md-12.h-div {
+        clear: both;
+        width: 100%;
+    }
+    
+    .container.main-book {
+        background: #dce6e6;
+        margin-top: 0;
+    }
+    
+    .row.also-bouht.popular,
+    .row.also-bouht.topic,
+    .row.also-bouht {
+        padding-left: 10%;
+    }
+    
+    .explore-topic {
+        padding: 15px 25px;
+        height: 180px;
+        margin-bottom: 10px;
+    }
+    
+    .explore-topic span {
+        margin-bottom:10px;
+    }
+    
+    .h-div span {
+        padding: 5px 15px;
+    }
+    
+    a.cross.btn {
+        margin-left: 30px;
+    }
+    
+    #footer {
+        display: none;
+    }
+    
+    .row.topic-banner {
+        height: 197px;
+        margin-top: 0
+    }
+    
+    .row.topic-banner h1 {
+        font-size: 24px;
+        margin-top: 40px;
+    }
+    
+    .row.topic-banner p {
+        font-size: 16px;
+    }
+    
+    .nav-pills .mobile-view {
+        display: block
+    }
+    
+    .mobile-view.footer {
+        font-size: 12px;
+        color: #fff;
+        text-transform: none;
+        width: 400px;
+        margin-top: 10px;
+        text-align: left;
+    }
+    
+    .mobile-view.footer .copyright a.fb,
+    .mobile-view.footer .copyright a.twt {
+        width: 48px;
+        height: 48px;
+        display: block;
+        float: left;
+        margin-left: 10px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+        background: url(../images/icon_fb.png) no-repeat;
+    }
+    
+    .mobile-view.footer .copyright a.twt {
+        background: url(../images/icon_twitter.png) no-repeat;
+    }
+    
+    .mobile-view.footer .copyright span {
+        display: block;
+        clear: both;
+        margin-left: 15px;
+    }
+    
 }
 
 @media (max-width: 1152px) {

@@ -8,6 +8,17 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.css" rel="stylesheet" media="screen">
     <link href="css/custom.css" rel="stylesheet" media="screen">
+      <script src="http://code.jquery.com/jquery.js"></script>
+      <script>
+  $(document).ready(function(){
+
+    $(".navbar-toggle").click(function () {
+      $("body").toggleClass("full");
+    });
+    
+  });
+    </script>
+      
   </head>
   <body>
     
@@ -55,6 +66,14 @@
         <li><a href="#" class="btn default-btn">Wisdom and Discernment</a></li>
         <li><a href="#" class="btn default-btn">Center Circle</a></li>
         <li><a href="#" class="btn default-btn">Living in Community</a></li>
+        <li class="mobile-view"><a href="#">test</a></li><!-- hidden for normal view (in case of topmenu moved here)-->
+        <li class="mobile-view footer"><!-- footer moves here -->
+          <div class="copyright">
+            <a href="#" class="fb"></a><a href="#" class="twt"></a>
+                <span>&copy; 2011-2014 The Crossroad Publishing Company. All Rights Reserved.</span>
+                
+            </div>
+        </li>
         
       </ul>
       
@@ -78,21 +97,24 @@ the heart of Christianity and teaches us how to let go of ego and open
 to the connecting and integrating power of contemplation.</p>
 
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 social">
                 social
             </div>
             <div class="col-md-12 h-div">
                 <span>Available Formats</span>
             </div>
+            <div class="purchase-buttons">
             <div class="col-md-3"><a href="#" class="btn buy"><span class="m-name">Buy eBook</span><span>$17.95</span></a></div>
             <div class="col-md-3"><a href="#" class="btn buy"><span class="m-name">Buy Trade Paper</span><span>$17.95</span></a></div>
             <div class="col-md-3"><a href="#" class="btn buy"><span class="m-name">Buy Audio Book</span><span>$17.95</span></a></div>
             <div class="col-md-3"><a href="#" class="btn buy"><span class="m-name">Buy Chapter</span><span>$17.95</span></a></div>
+            </div>
        </div>
     </div>
     
     <div class="container">
         <div class="row about-book">
+          <div class="mobile">
             <div class="col-md-12 h-div"><span>Overview</span></div>
             <p>This popular book from the renowned Franciscan challenges people to move beyond easy assumptions toward an understanding of themselves that is rooted in a connection with God. Rohr shows us that contemplation, at the heart of Christianity,
 is a place where "everything belongs."</p>
@@ -119,7 +141,8 @@ This small book brings prayer and solitude together with the wounds of the world
 <p class="review"><span>&ldquo;</span>Simply written yet deeply challenging…  At the base of all reality, Rohr writes, is God's 'radical grace.'<span>&rdquo;</span>
 <span class="author">&mdash; The Mennonite </span></p>
             </div>
-            <div class="col-md-12 h-div"><span>Customers Who Bought This Item Also Bought</span></div>
+        </div>
+            <div class="col-md-12 h-div"><span>Other Books From Richard Rohr (10)</span></div>
             <div class="row also-bouht">
                 <div class="col-md-3">
                     <a href="#">
@@ -192,7 +215,7 @@ This small book brings prayer and solitude together with the wounds of the world
     </div>
 
     
-    <script src="http://code.jquery.com/jquery.js"></script>
+    
     <script src="js/bootstrap.js"></script>
   </body>
 </html>
