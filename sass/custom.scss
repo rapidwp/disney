@@ -4,6 +4,8 @@ $default-font-color: #666;
 $brand-color: #33a1bd;
 $nav-hover: #888;
 
+
+
 body, container, container-fluid {
     background: $default-back;
     font-family: $default-font;
@@ -364,6 +366,14 @@ p.review {
     padding: 30px 65px;
 }
 
+.no-transition {
+  -webkit-transition: height 0;
+  -moz-transition: height 0;
+  -ms-transition: height 0;
+  -o-transition: height 0;
+  transition: height 0;
+}
+
 .explore-topic.journey {
     background: url(../images/journey_back.jpg) no-repeat center top;
 }
@@ -472,6 +482,10 @@ a.herder {
     margin-bottom: 30px;
 }
 
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+
 .row.topic-banner {
     margin-top: 40px;
     margin-bottom: 20px;
@@ -542,6 +556,66 @@ a.btn.more {
     display: none;
 }
 
+.mobile-menu {
+    display: none;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 1600px;
+    z-index:9999;
+}
+
+
+.mobile-menu .left-column {
+    width: 78px;
+    height: 1600px;
+    float: left;
+    background: #fff;
+}
+
+.mob-collapse {
+    background: #fff url(../images/mob-collapse.png) no-repeat left 11px;
+    width: 78px;
+    height: 149px;
+    cursor: pointer;
+}
+
+.mobile-menu ul {
+    background: url(../images/back-mob-nav.png) 78px top;
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.mobile-menu ul li a,
+.mobile-menu ul li span{
+    text-align: left;
+        background: transparent url(../images/back-mob-nav-li.png) no-repeat left bottom;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        padding-left: 0
+}
+
+.mobile-menu ul li span {
+    display: block;
+    font-style: italic;
+    color: $brand-color;
+    
+}
+
+
+.mobile-menu ul li a:hover
+
+{
+    background-color: transparent !important;
+        color: $brand-color !important;
+}
+
 @media (max-width: 800px) {
     
     header {
@@ -549,6 +623,11 @@ a.btn.more {
         border-bottom: 45px solid $brand-color;
         height: 140px;
     }
+    
+    .row {
+        margin: 0
+    }
+    
     
     .top-menu  ul li {
         display: none;
@@ -602,75 +681,7 @@ a.btn.more {
         height: 44px;
     }
     
-    body.full .container,
-    body.full #footer
-    {
-        display: none;
-    }
     
-     body.full .container-fluid.sub-nav,
-     body.full .navbar-default.container{
-        display: block !important
-     }
-     
-     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-        border: none
-     }
-    
-    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-        background-color: #fff;
-        }
-    
-    body.full .navbar-header {
-        width: 78px;
-        height: 115px;
-        background: #FFF;
-        position: fixed;
-        left: 10px;
-        top: 10px;
-        border-bottom: 45px solid $brand-color;
-        }
-        
-    body.full .home-banner {
-        display: none;
-    }
-    
-    body.full ul.nav-pills {
-        position: fixed;
-        left:70px;
-        height: 600px;
-        padding-top: 15px;
-        background: $brand-color url(../images/back-mob-nav.png) left top;
-        top:0;
-        padding-left: 25px;
-        font-family: Lato, sans-serif;
-        text-transform: uppercase
-    }
-    
-    body.full ul.nav-pills li a{
-        text-align: left;
-        background: transparent url(../images/back-mob-nav-li.png) no-repeat left bottom;
-        padding-bottom: 18px;
-        color: #fff;
-        font-size: 18px;
-        font-weight: bold;
-        
-        
-    }
-    
-    body.full ul.nav-pills li a:hover {
-        background-color: transparent !important;
-        color: $brand-color !important;
-    }
-    
-    body.full .nav-pills.nav-justified > .active > a {
-        background-color: transparent;
-        color: $brand-color;
-    }
-    
-    body.full header {
-        border: none;
-    }
     
     .col-md-3 {
         width: 45%;
@@ -789,6 +800,12 @@ a.btn.more {
         margin-left: 15px;
     }
     
+    .mobile-wrap {
+        width: 78px;
+        height: 1200px;
+        background: #ccc;
+        position:absolute;
+    }
 }
 
 @media (max-width: 1152px) {

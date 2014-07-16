@@ -2,22 +2,17 @@
 <html>
   <head>
     <title>The Crossroad Publishing Company</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=640, initial-scale=1.0">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.css" rel="stylesheet" media="screen">
     <link href="css/custom.css" rel="stylesheet" media="screen">
       <script src="http://code.jquery.com/jquery.js"></script>
-      <script>
-  $(document).ready(function(){
-
-    $(".navbar-toggle").click(function () {
-      $("body").toggleClass("full");
-    });
-    
-  });
-    </script>
+      <script src="js/jquery-ui.min.js"></script>
+      <script src="js/custom.js"></script>
+      
       
   </head>
   <body>
@@ -51,7 +46,7 @@
   
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <button type="button" class="navbar-toggle" data-toggle="collapse">
         <span class="sr-only">Toggle navigation</span>
         
       </button>
@@ -59,28 +54,51 @@
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div class="collapse navbar-collapse no-transition">
       <ul class="nav nav-pills nav-justified">
+        
         <li class="active"><a href="#" class="btn default-btn">The Spiritual Journey</a></li>
         <li><a href="#" class="btn default-btn">Human Flourishing</a></li>
         <li><a href="#" class="btn default-btn">Wisdom and Discernment</a></li>
         <li><a href="#" class="btn default-btn">Center Circle</a></li>
         <li><a href="#" class="btn default-btn">Living in Community</a></li>
-        <li class="mobile-view"><a href="#">test</a></li><!-- hidden for normal view (in case of topmenu moved here)-->
-        <li class="mobile-view footer"><!-- footer moves here -->
-          <div class="copyright">
-            <a href="#" class="fb"></a><a href="#" class="twt"></a>
-                <span>&copy; 2011-2014 The Crossroad Publishing Company. All Rights Reserved.</span>
                 
-            </div>
-        </li>
-        
       </ul>
       
     </div><!-- /.navbar-collapse -->
  <!-- /.container-fluid -->
         </nav>
+        
+          
+          
     </div>
+    
+    <div class="mobile-menu">
+          <div class="left-column"><div class="mob-collapse"></div></div>
+          <ul class="nav">
+        <li class="mobile-view"><span>Explore</span></li>
+        <li class="active"><a href="#">The Spiritual Journey</a></li>
+        <li><a href="#">Human Flourishing</a></li>
+        <li><a href="#">Wisdom and Discernment</a></li>
+        <li><a href="#">Center Circle</a></li>
+        <li><a href="#">Living in Community</a></li>
+        <li class="mobile-view"><span>Our Company</span></li>
+        <li class="mobile-view"><a href="#">About us</a></li>
+        <li class="mobile-view"><a href="#">How to order</a></li>
+        <li class="mobile-view"><a href="#">For authors</a></li>
+        <li class="mobile-view"><a href="#">Rights &amp; permissions</a></li>
+        <li class="mobile-view"><a href="#">Contact us</a></li>
+        <li class="mobile-view footer"><!-- footer moves here -->
+          <div class="copyright">
+            <a href="#" class="fb"></a><a href="#" class="twt"></a>
+            
+                <p style="float: left; margin-left: 15px;">&copy; 2011-2014 The Crossroad Publishing Company. All Rights Reserved.</p>
+                
+            </div>
+        </li>
+        
+      </ul>
+        </div>
     
     <div class="container main-book">
        <div class="row">
