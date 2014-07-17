@@ -13,5 +13,10 @@ $(".mob-collapse").click(function () {
     $(".mobile-menu").hide("slide", { direction: "right" }, 350);
     $(".navbar-header").show();
   });
+
+  $(".btn.more").click(function () {
+      $(this).toggleClass("loading");
+     });
     
   });
+

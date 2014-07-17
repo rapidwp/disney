@@ -131,12 +131,30 @@ span.dots {
     text-align:left;
     color: $brand-color;
     font-weight:bold;
-    height: 35px;
+    height: 45px;
+    padding: 15px;
 }
 
 .main-book a.btn:hover {
     background:$brand-color;
     color: #fff;
+}
+
+.col-md-3.book-image {
+    width: 220px;
+}
+
+.main-book .col-md-6 p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.main-book .col-md-12.h-div {
+    background: url(../images/header_line_book.png) no-repeat center center;
+}
+
+.main-book .h-div span {
+    background: transparent
 }
 
 .main-book a.btn span.m-name {
@@ -158,6 +176,7 @@ span.dots {
     font-size: 18px;
     line-height: 30px;
     padding: 30px;
+    margin-bottom: 20px;
 }
 
 .list-unstyled.details {
@@ -172,7 +191,10 @@ span.dots {
 span.author {
     display:block;
     font-weight:bold;
-    font-size:16px;
+    font-size:16px !important;
+    color: #666 !important;
+    padding: 0 !important;
+    line-height: 24px !important;
 }
 
 p.review {
@@ -358,6 +380,20 @@ p.review {
     margin-bottom: 30px;
 }
 
+.also-bouht a {
+    position: relative;
+}
+
+.book-new {
+    display: block;
+    position: absolute;
+    width: 71px;
+    height: 72px;
+    top:-4px;
+    right: -4px;
+    background: url(../images/new.png) no-repeat;
+}
+
 .explore-topic {
     position: relative;
     height: 247px;
@@ -456,8 +492,13 @@ a.herder {
     background: url(../images/button_herder.png) no-repeat center center;
 }
 
-.row.about, .row.author {
+.row.about, .row.author, .row.home {
     margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+.h-div.brand {
+    margin-top: 60px;
 }
 
 .row.about p,
@@ -521,7 +562,7 @@ a.btn.more {
     width: 148px;
     height: 44px;
     line-height: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 0;
 }
 
 .btn.more.loading {
@@ -550,6 +591,19 @@ a.btn.more {
 .topic.books .count {
     font-size: 13px;
     color: #666;
+}
+
+.main-book h2 {
+    margin-top: 10px;
+}
+
+.review span {
+    font-size: 48px;
+    color: #33a1bd;
+    position: relative;
+    top: 10px;
+    line-height: 12px;
+    padding: 0 5px;
 }
 
 .nav-pills .mobile-view {
@@ -589,6 +643,11 @@ a.btn.more {
     padding-top: 10px;
 }
 
+.cross-buttons {
+    width: 500px;
+    margin: 0 auto;
+}
+
 .mobile-menu ul li a,
 .mobile-menu ul li span{
     text-align: left;
@@ -616,7 +675,7 @@ a.btn.more {
         color: $brand-color !important;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     
     header {
         background-image: none;
@@ -628,6 +687,9 @@ a.btn.more {
         margin: 0
     }
     
+    .nav.nav-pills a, .btn.buy {
+        font-size: 14px !important;
+    }
     
     .top-menu  ul li {
         display: none;
@@ -664,6 +726,12 @@ a.btn.more {
         top: 30%;
     }
     
+    .main-book .h-div {
+        text-align: left;
+        text-indent: -25px;
+        background: url(../images/header_line_book_sm.png) no-repeat 190px center !important;
+    }
+    
     .sub-nav {
         position: absolute;
         top: 0;
@@ -684,7 +752,7 @@ a.btn.more {
     
     
     .col-md-3 {
-        width: 45%;
+        width: 50%;
         padding:0 5px;
         float: left;
         margin-bottom: 10px !important;
@@ -726,7 +794,7 @@ a.btn.more {
     .row.also-bouht.popular,
     .row.also-bouht.topic,
     .row.also-bouht {
-        padding-left: 10%;
+        padding-left: 0;
     }
     
     .explore-topic {
@@ -744,7 +812,7 @@ a.btn.more {
     }
     
     a.cross.btn {
-        margin-left: 30px;
+        margin-left: 25px;
     }
     
     #footer {
