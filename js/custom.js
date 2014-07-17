@@ -17,6 +17,17 @@ $(".mob-collapse").click(function () {
   $(".btn.more").click(function () {
       $(this).toggleClass("loading");
      });
+  
+  $(".main-book .btn.buy").click(function () {
+      $(".pop-up").show();
+     });
+  
+  $(".cross-close").click(function () {
+      $(".pop-up").hide();
+     });
+
+    
+    
     
   });
 

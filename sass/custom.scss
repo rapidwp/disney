@@ -4,7 +4,21 @@ $default-font-color: #666;
 $brand-color: #33a1bd;
 $nav-hover: #888;
 
+body {
+    padding-top: 179px;
+}
 
+body.home {
+    padding-top: 95px;
+}
+
+.sub-nav.fixed{
+  position:fixed;
+  z-index: 9999;
+  top:95px;
+  right: 0;
+  width: 100%;
+}
 
 body, container, container-fluid {
     background: $default-back;
@@ -480,12 +494,15 @@ a.cross, a.herder {
     display: block;
     float: left;
     margin-bottom: 40px;
-    margin-left: 45px;
-    background: url(../images/button_cross.png) no-repeat 15px center;
+   background: url(../images/button_cross.png) no-repeat 15px center;
 }
 
 a.cross:hover, a.herder:hover {
     border-color: $brand-color;
+}
+
+a.herder {
+    margin-left: 15px;
 }
 
 a.herder {
@@ -644,7 +661,7 @@ a.btn.more {
 }
 
 .cross-buttons {
-    width: 500px;
+    width:455px;
     margin: 0 auto;
 }
 
@@ -667,6 +684,95 @@ a.btn.more {
     
 }
 
+.pop-up {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    display: none;
+    background: url(../images/popup-bg.png) repeat;
+}
+
+.pop-up div {
+    padding: 20px;
+    width: 527px;
+    height: auto;
+    background: #fff;
+    position: relative;
+    overflow: auto;
+    top:20%;
+    margin: 0 auto;
+    border-radius:5px;
+  -webkit-border-radius:5px;
+     -moz-border-radius:5px;
+    
+}
+
+.pop-up div .cross-close {
+    width: 30px;
+    height: 29px;
+    background: url(../images/cross.png) no-repeat;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.pop-up div h2 {
+    font-size: 24px;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.pop-up div h3 {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    color: #444;
+    margin-top: 0;
+}
+
+.pop-up div h4 {
+    font-size: 14px;
+}
+
+.pop-up div span.dots {
+    font-size: 24px;
+}
+
+.pop-up div p {
+    font-size: 16px;
+    margin-top: 10px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #bebebe;
+    margin-bottom: 30px;
+}
+
+.pop-up div span.format {
+    font-family: Lato, sans-serif;
+    color: #33a1bd;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.pop-up div a {
+    width: 150px;
+    height: 50px;
+    background: url(../images/badge_apple.png) no-repeat;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.pop-up div a.amazone {
+    background: url(../images/badge_amazon.png) no-repeat;
+}
 
 .mobile-menu ul li a:hover
 
@@ -812,7 +918,7 @@ a.btn.more {
     }
     
     a.cross.btn {
-        margin-left: 25px;
+        margin-left: 0;
     }
     
     #footer {
