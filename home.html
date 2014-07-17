@@ -14,26 +14,14 @@
       <script src="js/jquery-ui.min.js"></script>
       <script src="js/custom.js"></script>
      
-      <script>
-        $(function(){
-  var menuOffset = $('.sub-nav')[0].offsetTop;
-  $(document).bind('ready scroll',function() {
-    var docScroll = $(document).scrollTop();
-    if(docScroll >= menuOffset-95) {
-      $('.sub-nav').addClass('fixed').css('width',$('#masthead').width());
-    } else {
-      $('.sub-nav').removeClass('fixed').removeAttr("width");
-    }
-   });
-});
-      </script>
+      
      
       
   </head>
   <body class="home">
     
     
-    <header class="container-fluid navbar-fixed-top">
+    <header class="container-fluid">
         <div class="container">
         <div class="row">
             <div class="col-md-5">
