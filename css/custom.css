@@ -8,6 +8,15 @@ body.home {
   padding-top: 0;
 }
 
+/* line 15, ../sass/custom.scss */
+.sub-nav.fixed {
+  position: fixed;
+  z-index: 9999;
+  top: 95px;
+  right: 0;
+  width: 100%;
+}
+
 /* line 23, ../sass/custom.scss */
 body, container, container-fluid {
   background: white;
@@ -883,48 +892,82 @@ a.btn.more {
   color: #33a1bd !important;
 }
 
+/* line 785, ../sass/custom.scss */
+.sticky-fix {
+  height: 95px;
+}
+
 @media (max-width: 1000px) {
-  /* line 787, ../sass/custom.scss */
+  /* line 791, ../sass/custom.scss */
   header {
     background-image: none;
     border-bottom: 45px solid #33a1bd;
     height: 140px;
   }
 
-  /* line 793, ../sass/custom.scss */
+  /* line 797, ../sass/custom.scss */
+  .explore-topic p {
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  /* line 802, ../sass/custom.scss */
+  .sticky-fix {
+    height: 0;
+  }
+
+  /* line 806, ../sass/custom.scss */
+  .navbar-header {
+    top: -95px;
+    position: relative;
+    display: block;
+  }
+
+  /* line 812, ../sass/custom.scss */
+  .home-banner {
+    position: relative;
+    top: 95px;
+  }
+
+  /* line 817, ../sass/custom.scss */
+  .row.home {
+    margin-top: 105px;
+  }
+
+  /* line 821, ../sass/custom.scss */
   .row {
     margin: 0;
   }
 
-  /* line 797, ../sass/custom.scss */
+  /* line 825, ../sass/custom.scss */
   .nav.nav-pills a, .btn.buy {
     font-size: 14px !important;
   }
 
-  /* line 801, ../sass/custom.scss */
+  /* line 829, ../sass/custom.scss */
   .top-menu ul li {
     display: none;
   }
 
-  /* line 805, ../sass/custom.scss */
+  /* line 833, ../sass/custom.scss */
   .top-menu ul li.search {
     display: block;
   }
 
-  /* line 809, ../sass/custom.scss */
+  /* line 837, ../sass/custom.scss */
   .top-menu ul {
     float: left;
     margin-top: 15px;
   }
 
-  /* line 814, ../sass/custom.scss */
+  /* line 842, ../sass/custom.scss */
   .top-menu button[type="submit"] {
     position: absolute;
     left: 0;
     background-color: #33a1bd;
   }
 
-  /* line 820, ../sass/custom.scss */
+  /* line 848, ../sass/custom.scss */
   .top-menu input[type="text"] {
     background: none;
     border: none;
@@ -933,24 +976,24 @@ a.btn.more {
     padding-left: 0;
   }
 
-  /* line 828, ../sass/custom.scss */
+  /* line 856, ../sass/custom.scss */
   .home-banner, .home-banner .container {
     height: 200px;
   }
 
-  /* line 832, ../sass/custom.scss */
+  /* line 860, ../sass/custom.scss */
   .home-banner p {
     top: 30%;
   }
 
-  /* line 836, ../sass/custom.scss */
+  /* line 864, ../sass/custom.scss */
   .main-book .h-div {
     text-align: left;
     text-indent: -25px;
     background: url(../images/header_line_book_sm.png) no-repeat 190px center !important;
   }
 
-  /* line 842, ../sass/custom.scss */
+  /* line 870, ../sass/custom.scss */
   .sub-nav {
     position: absolute;
     top: 0;
@@ -960,7 +1003,7 @@ a.btn.more {
     border: none;
   }
 
-  /* line 851, ../sass/custom.scss */
+  /* line 879, ../sass/custom.scss */
   .navbar-toggle {
     background-color: none;
     border: none;
@@ -969,7 +1012,7 @@ a.btn.more {
     height: 44px;
   }
 
-  /* line 861, ../sass/custom.scss */
+  /* line 889, ../sass/custom.scss */
   .col-md-3 {
     width: 50%;
     padding: 0 5px;
@@ -977,7 +1020,7 @@ a.btn.more {
     margin-bottom: 10px !important;
   }
 
-  /* line 868, ../sass/custom.scss */
+  /* line 896, ../sass/custom.scss */
   .main-book .col-md-3.social {
     width: 100%;
     text-align: left;
@@ -985,95 +1028,95 @@ a.btn.more {
     margin-bottom: 25px !important;
   }
 
-  /* line 874, ../sass/custom.scss */
+  /* line 902, ../sass/custom.scss */
   .purchase-buttons .col-md-3 {
     width: 50%;
   }
 
-  /* line 879, ../sass/custom.scss */
+  /* line 907, ../sass/custom.scss */
   .purchase-buttons a {
     font-size: 18px !important;
   }
 
-  /* line 883, ../sass/custom.scss */
+  /* line 911, ../sass/custom.scss */
   .main-book a.btn {
     height: 40px;
   }
 
-  /* line 887, ../sass/custom.scss */
+  /* line 915, ../sass/custom.scss */
   .row.about-book .mobile {
     display: none;
   }
 
-  /* line 891, ../sass/custom.scss */
+  /* line 919, ../sass/custom.scss */
   .main-book .col-md-12.h-div {
     clear: both;
     width: 100%;
   }
 
-  /* line 896, ../sass/custom.scss */
+  /* line 924, ../sass/custom.scss */
   .container.main-book {
     background: #dce6e6;
     margin-top: 0;
   }
 
-  /* line 903, ../sass/custom.scss */
+  /* line 931, ../sass/custom.scss */
   .row.also-bouht.popular,
   .row.also-bouht.topic,
   .row.also-bouht {
     padding-left: 0;
   }
 
-  /* line 907, ../sass/custom.scss */
+  /* line 935, ../sass/custom.scss */
   .explore-topic {
     padding: 15px 25px;
     height: 180px;
     margin-bottom: 10px;
   }
 
-  /* line 913, ../sass/custom.scss */
+  /* line 941, ../sass/custom.scss */
   .explore-topic span {
     margin-bottom: 10px;
   }
 
-  /* line 917, ../sass/custom.scss */
+  /* line 945, ../sass/custom.scss */
   .h-div span {
     padding: 5px 15px;
   }
 
-  /* line 921, ../sass/custom.scss */
+  /* line 949, ../sass/custom.scss */
   a.cross.btn {
     margin-left: 0;
   }
 
-  /* line 925, ../sass/custom.scss */
+  /* line 953, ../sass/custom.scss */
   #footer {
     display: none;
   }
 
-  /* line 929, ../sass/custom.scss */
+  /* line 957, ../sass/custom.scss */
   .row.topic-banner {
     height: 197px;
     margin-top: 0;
   }
 
-  /* line 934, ../sass/custom.scss */
+  /* line 962, ../sass/custom.scss */
   .row.topic-banner h1 {
     font-size: 24px;
     margin-top: 40px;
   }
 
-  /* line 939, ../sass/custom.scss */
+  /* line 967, ../sass/custom.scss */
   .row.topic-banner p {
     font-size: 16px;
   }
 
-  /* line 943, ../sass/custom.scss */
+  /* line 971, ../sass/custom.scss */
   .nav-pills .mobile-view {
     display: block;
   }
 
-  /* line 947, ../sass/custom.scss */
+  /* line 975, ../sass/custom.scss */
   .mobile-view.footer {
     font-size: 12px;
     color: #fff;
@@ -1083,7 +1126,7 @@ a.btn.more {
     text-align: left;
   }
 
-  /* line 957, ../sass/custom.scss */
+  /* line 985, ../sass/custom.scss */
   .mobile-view.footer .copyright a.fb,
   .mobile-view.footer .copyright a.twt {
     width: 48px;
@@ -1096,19 +1139,19 @@ a.btn.more {
     background: url(../images/icon_fb.png) no-repeat;
   }
 
-  /* line 968, ../sass/custom.scss */
+  /* line 996, ../sass/custom.scss */
   .mobile-view.footer .copyright a.twt {
     background: url(../images/icon_twitter.png) no-repeat;
   }
 
-  /* line 972, ../sass/custom.scss */
+  /* line 1000, ../sass/custom.scss */
   .mobile-view.footer .copyright span {
     display: block;
     clear: both;
     margin-left: 15px;
   }
 
-  /* line 978, ../sass/custom.scss */
+  /* line 1006, ../sass/custom.scss */
   .mobile-wrap {
     width: 78px;
     height: 1200px;
@@ -1117,19 +1160,19 @@ a.btn.more {
   }
 }
 @media (max-width: 1152px) {
-  /* line 989, ../sass/custom.scss */
+  /* line 1017, ../sass/custom.scss */
   .nav.nav-pills a,
   .btn.buy {
     font-size: 14px;
     font-weight: normal;
   }
 
-  /* line 994, ../sass/custom.scss */
+  /* line 1022, ../sass/custom.scss */
   a.cross {
     margin-left: 0;
   }
 
-  /* line 998, ../sass/custom.scss */
+  /* line 1026, ../sass/custom.scss */
   a.herder {
     margin-left: 30px;
   }

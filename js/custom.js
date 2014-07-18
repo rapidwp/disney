@@ -26,8 +26,6 @@ $(".mob-collapse").click(function () {
       $(".pop-up").hide();
      });
 
-    
-    
-    
+          
   });
 

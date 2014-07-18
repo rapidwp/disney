@@ -12,13 +12,13 @@ body.home {
     padding-top: 0;
 }
 
-//.sub-nav.fixed{
-//  position:fixed;
- // z-index: 9999;
- // top:95px;
-//  right: 0;
- // width: 100%;
-//}
+.sub-nav.fixed{
+position:fixed;
+z-index: 9999;
+top:95px;
+ right: 0;
+width: 100%;
+}
 
 body, container, container-fluid {
     background: $default-back;
@@ -782,12 +782,40 @@ a.btn.more {
         color: $brand-color !important;
 }
 
+.sticky-fix {
+        height:95px;
+    }
+
 @media (max-width: 1000px) {
     
     header {
         background-image: none;
         border-bottom: 45px solid $brand-color;
         height: 140px;
+    }
+    
+    .explore-topic p {
+        width: 500px;
+        margin: 0 auto;
+    }
+    
+    .sticky-fix {
+        height:0
+    }
+    
+    .navbar-header {
+        top: -95px;
+position: relative;
+display: block;
+    }
+    
+    .home-banner {
+        position: relative;
+        top: 95px;
+    }
+    
+    .row.home {
+        margin-top: 105px;
     }
     
     .row {
