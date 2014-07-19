@@ -785,8 +785,57 @@ a.btn.more {
 .sticky-fix {
         height:95px;
     }
+    
+.row.related .col-md-3,
+.row.related .col-md-6.half{
+    background: #fff;
+   
+}
+
+.row.related {
+    margin-bottom: 60px;
+}
+
+.row.related div {
+    margin-bottom: 20px;
+}
+
+.row.related .rel-content {
+    border: 1px solid #e5e5e5;
+    text-align: center;
+}
+
+.row.related .rel-content h4 {
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    margin: 15px 0 0 0;
+}
+
+.row.related .rel-content span.via {
+    font-size: 13px;
+    display: block;
+    padding-bottom: 15px;
+}
+
+span.via a {
+    color: $brand-color;
+}
+
+.rel-content img {
+    width: 100%;
+}
+
+.row.related .col-md-6 {
+    height: 520px;
+    background: #fff;
+    
+}
 
 @media (max-width: 1000px) {
+    
+    input::-webkit-input-placeholder {color:#fff !important;}
+input::-moz-placeholder {color:#fff !important;}
     
     header {
         background-image: none;
@@ -809,13 +858,24 @@ position: relative;
 display: block;
     }
     
+    .home .container-fluid.sub-nav {
+       z-index: 9999;
+       position: relative;
+    }
+    
+    .home .navbar-toggle {
+        top:15px !important;
+        right: 15px;
+        position: fixed;
+    }
+    
     .home-banner {
         position: relative;
         top: 95px;
     }
     
     .row.home {
-        margin-top: 105px;
+        margin-top: 65px;
     }
     
     .row {
@@ -882,9 +942,22 @@ display: block;
         background-image: url(../images/button-toggle.gif);
         width:44px;
         height: 44px;
+        position: relative;
+        z-index: 9999;
+        top: 95px;
     }
     
+    .home .navbar-toggle {
+        top:0
+    }
     
+    .sub-nav.fixed {
+        z-index: 0
+    }
+    
+    .home-banner  {
+        top:130px;
+    }
     
     .col-md-3 {
         width: 50%;
