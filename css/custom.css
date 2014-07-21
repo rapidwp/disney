@@ -898,152 +898,254 @@ a.btn.more {
 }
 
 /* line 790, ../sass/custom.scss */
-.row.related .col-md-3,
-.row.related .col-md-6.half {
-  background: #fff;
-}
-
-/* line 795, ../sass/custom.scss */
-.row.related {
-  margin-bottom: 60px;
-}
-
-/* line 799, ../sass/custom.scss */
-.row.related div {
-  margin-bottom: 20px;
-}
-
-/* line 803, ../sass/custom.scss */
-.row.related .rel-content {
-  border: 1px solid #e5e5e5;
+.rel-content {
   text-align: center;
 }
 
-/* line 808, ../sass/custom.scss */
-.row.related .rel-content h4 {
+/* line 794, ../sass/custom.scss */
+.related .rel-content h4 {
   font-size: 16px;
   color: #000;
   font-weight: bold;
   margin: 15px 0 0 0;
+  padding: 0 15px;
 }
 
-/* line 815, ../sass/custom.scss */
-.row.related .rel-content span.via {
+/* line 802, ../sass/custom.scss */
+.rel-content span.via {
   font-size: 13px;
   display: block;
-  padding-bottom: 15px;
 }
 
-/* line 821, ../sass/custom.scss */
+/* line 808, ../sass/custom.scss */
+.row.related {
+  margin-left: -20px;
+}
+
+/* line 813, ../sass/custom.scss */
 span.via a {
   color: #33a1bd;
 }
 
-/* line 825, ../sass/custom.scss */
+/* line 817, ../sass/custom.scss */
 .rel-content img {
   width: 100%;
 }
 
-/* line 829, ../sass/custom.scss */
-.row.related .col-md-6 {
-  height: 520px;
-  background: #fff;
+/* line 821, ../sass/custom.scss */
+.rel-content p {
+  padding: 0 15px 0 15px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* line 827, ../sass/custom.scss */
+.rel-content .dots {
+  font-size: 24px;
+  display: block;
+  color: #bbb;
+  font-weight: bold;
+}
+
+/* line 834, ../sass/custom.scss */
+.rel-content .author-image img {
+  width: 115px;
+  border-width: 3px;
+}
+
+/* line 839, ../sass/custom.scss */
+.rel-content .author-image {
+  margin-top: 20px;
+}
+
+/* line 843, ../sass/custom.scss */
+.rel-content p.review {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* line 849, ../sass/custom.scss */
+.rel-content span.author {
+  font-style: normal;
+  font-weight: normal;
+  color: #222 !important;
+  font-size: 16px !important;
+  text-align: left;
+  padding-left: 15px !important;
+}
+
+/* line 859, ../sass/custom.scss */
+.rel-content a.btn {
+  background: #bbb;
+  color: #fff;
+  display: block;
+  margin-bottom: 15px;
+  width: 50%;
+  height: 40px;
+  line-height: 24px;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+/* line 871, ../sass/custom.scss */
+.rel-content a.btn:hover {
+  background: #33a1bd;
+}
+
+/* line 876, ../sass/custom.scss */
+.item {
+  float: left;
+  width: 50%;
+}
+
+/* line 877, ../sass/custom.scss */
+.item.w2 {
+  width: 25%;
+}
+
+/* line 878, ../sass/custom.scss */
+.grid-sizer {
+  width: 25%;
+}
+
+/* line 880, ../sass/custom.scss */
+.rel-container {
+  padding: 10px;
+}
+
+/* line 884, ../sass/custom.scss */
+.rel-content {
+  border: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+/* line 890, ../sass/custom.scss */
+.container-fluid.related {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+/* line 895, ../sass/custom.scss */
+#massonry {
+  margin-top: 80px;
 }
 
 @media (max-width: 1000px) {
-  /* line 837, ../sass/custom.scss */
+  /* line 901, ../sass/custom.scss */
   input::-webkit-input-placeholder {
     color: #fff !important;
   }
 
-  /* line 838, ../sass/custom.scss */
+  /* line 902, ../sass/custom.scss */
   input::-moz-placeholder {
     color: #fff !important;
   }
 
-  /* line 840, ../sass/custom.scss */
+  /* line 904, ../sass/custom.scss */
   header {
     background-image: none;
     border-bottom: 45px solid #33a1bd;
     height: 140px;
   }
 
-  /* line 846, ../sass/custom.scss */
+  /* line 910, ../sass/custom.scss */
+  .item {
+    float: left;
+    width: 100%;
+  }
+
+  /* line 911, ../sass/custom.scss */
+  .item.w2 {
+    width: 50%;
+  }
+
+  /* line 912, ../sass/custom.scss */
+  .grid-sizer {
+    width: 50%;
+  }
+
+  /* line 914, ../sass/custom.scss */
+  #massonry {
+    margin-top: 0;
+  }
+
+  /* line 918, ../sass/custom.scss */
   .explore-topic p {
     width: 500px;
     margin: 0 auto;
   }
 
-  /* line 851, ../sass/custom.scss */
+  /* line 923, ../sass/custom.scss */
   .sticky-fix {
     height: 0;
   }
 
-  /* line 855, ../sass/custom.scss */
+  /* line 928, ../sass/custom.scss */
   .navbar-header {
     top: -95px;
     position: relative;
     display: block;
   }
 
-  /* line 861, ../sass/custom.scss */
+  /* line 934, ../sass/custom.scss */
   .home .container-fluid.sub-nav {
     z-index: 9999;
     position: relative;
   }
 
-  /* line 866, ../sass/custom.scss */
+  /* line 939, ../sass/custom.scss */
   .home .navbar-toggle {
     top: 15px !important;
     right: 15px;
     position: fixed;
   }
 
-  /* line 872, ../sass/custom.scss */
+  /* line 945, ../sass/custom.scss */
   .home-banner {
     position: relative;
     top: 95px;
   }
 
-  /* line 877, ../sass/custom.scss */
+  /* line 950, ../sass/custom.scss */
   .row.home {
     margin-top: 65px;
   }
 
-  /* line 881, ../sass/custom.scss */
+  /* line 954, ../sass/custom.scss */
   .row {
     margin: 0;
   }
 
-  /* line 885, ../sass/custom.scss */
+  /* line 958, ../sass/custom.scss */
   .nav.nav-pills a, .btn.buy {
     font-size: 14px !important;
   }
 
-  /* line 889, ../sass/custom.scss */
+  /* line 962, ../sass/custom.scss */
   .top-menu ul li {
     display: none;
   }
 
-  /* line 893, ../sass/custom.scss */
+  /* line 966, ../sass/custom.scss */
   .top-menu ul li.search {
     display: block;
   }
 
-  /* line 897, ../sass/custom.scss */
+  /* line 970, ../sass/custom.scss */
   .top-menu ul {
     float: left;
     margin-top: 15px;
   }
 
-  /* line 902, ../sass/custom.scss */
+  /* line 975, ../sass/custom.scss */
   .top-menu button[type="submit"] {
     position: absolute;
     left: 0;
     background-color: #33a1bd;
   }
 
-  /* line 908, ../sass/custom.scss */
+  /* line 981, ../sass/custom.scss */
   .top-menu input[type="text"] {
     background: none;
     border: none;
@@ -1052,24 +1154,24 @@ span.via a {
     padding-left: 0;
   }
 
-  /* line 916, ../sass/custom.scss */
+  /* line 989, ../sass/custom.scss */
   .home-banner, .home-banner .container {
     height: 200px;
   }
 
-  /* line 920, ../sass/custom.scss */
+  /* line 993, ../sass/custom.scss */
   .home-banner p {
     top: 30%;
   }
 
-  /* line 924, ../sass/custom.scss */
+  /* line 997, ../sass/custom.scss */
   .main-book .h-div {
     text-align: left;
     text-indent: -25px;
     background: url(../images/header_line_book_sm.png) no-repeat 190px center !important;
   }
 
-  /* line 930, ../sass/custom.scss */
+  /* line 1003, ../sass/custom.scss */
   .sub-nav {
     position: absolute;
     top: 0;
@@ -1079,7 +1181,7 @@ span.via a {
     border: none;
   }
 
-  /* line 939, ../sass/custom.scss */
+  /* line 1012, ../sass/custom.scss */
   .navbar-toggle {
     background-color: none;
     border: none;
@@ -1091,22 +1193,22 @@ span.via a {
     top: 95px;
   }
 
-  /* line 950, ../sass/custom.scss */
+  /* line 1023, ../sass/custom.scss */
   .home .navbar-toggle {
     top: 0;
   }
 
-  /* line 954, ../sass/custom.scss */
+  /* line 1027, ../sass/custom.scss */
   .sub-nav.fixed {
     z-index: 0;
   }
 
-  /* line 958, ../sass/custom.scss */
+  /* line 1031, ../sass/custom.scss */
   .home-banner {
     top: 130px;
   }
 
-  /* line 962, ../sass/custom.scss */
+  /* line 1035, ../sass/custom.scss */
   .col-md-3 {
     width: 50%;
     padding: 0 5px;
@@ -1114,7 +1216,7 @@ span.via a {
     margin-bottom: 10px !important;
   }
 
-  /* line 969, ../sass/custom.scss */
+  /* line 1042, ../sass/custom.scss */
   .main-book .col-md-3.social {
     width: 100%;
     text-align: left;
@@ -1122,95 +1224,95 @@ span.via a {
     margin-bottom: 25px !important;
   }
 
-  /* line 975, ../sass/custom.scss */
+  /* line 1048, ../sass/custom.scss */
   .purchase-buttons .col-md-3 {
     width: 50%;
   }
 
-  /* line 980, ../sass/custom.scss */
+  /* line 1053, ../sass/custom.scss */
   .purchase-buttons a {
     font-size: 18px !important;
   }
 
-  /* line 984, ../sass/custom.scss */
+  /* line 1057, ../sass/custom.scss */
   .main-book a.btn {
     height: 40px;
   }
 
-  /* line 988, ../sass/custom.scss */
+  /* line 1061, ../sass/custom.scss */
   .row.about-book .mobile {
     display: none;
   }
 
-  /* line 992, ../sass/custom.scss */
+  /* line 1065, ../sass/custom.scss */
   .main-book .col-md-12.h-div {
     clear: both;
     width: 100%;
   }
 
-  /* line 997, ../sass/custom.scss */
+  /* line 1070, ../sass/custom.scss */
   .container.main-book {
     background: #dce6e6;
     margin-top: 0;
   }
 
-  /* line 1004, ../sass/custom.scss */
+  /* line 1077, ../sass/custom.scss */
   .row.also-bouht.popular,
   .row.also-bouht.topic,
   .row.also-bouht {
     padding-left: 0;
   }
 
-  /* line 1008, ../sass/custom.scss */
+  /* line 1081, ../sass/custom.scss */
   .explore-topic {
     padding: 15px 25px;
     height: 180px;
     margin-bottom: 10px;
   }
 
-  /* line 1014, ../sass/custom.scss */
+  /* line 1087, ../sass/custom.scss */
   .explore-topic span {
     margin-bottom: 10px;
   }
 
-  /* line 1018, ../sass/custom.scss */
+  /* line 1091, ../sass/custom.scss */
   .h-div span {
     padding: 5px 15px;
   }
 
-  /* line 1022, ../sass/custom.scss */
+  /* line 1095, ../sass/custom.scss */
   a.cross.btn {
     margin-left: 0;
   }
 
-  /* line 1026, ../sass/custom.scss */
+  /* line 1099, ../sass/custom.scss */
   #footer {
     display: none;
   }
 
-  /* line 1030, ../sass/custom.scss */
+  /* line 1103, ../sass/custom.scss */
   .row.topic-banner {
     height: 197px;
     margin-top: 0;
   }
 
-  /* line 1035, ../sass/custom.scss */
+  /* line 1108, ../sass/custom.scss */
   .row.topic-banner h1 {
     font-size: 24px;
     margin-top: 40px;
   }
 
-  /* line 1040, ../sass/custom.scss */
+  /* line 1113, ../sass/custom.scss */
   .row.topic-banner p {
     font-size: 16px;
   }
 
-  /* line 1044, ../sass/custom.scss */
+  /* line 1117, ../sass/custom.scss */
   .nav-pills .mobile-view {
     display: block;
   }
 
-  /* line 1048, ../sass/custom.scss */
+  /* line 1121, ../sass/custom.scss */
   .mobile-view.footer {
     font-size: 12px;
     color: #fff;
@@ -1220,7 +1322,7 @@ span.via a {
     text-align: left;
   }
 
-  /* line 1058, ../sass/custom.scss */
+  /* line 1131, ../sass/custom.scss */
   .mobile-view.footer .copyright a.fb,
   .mobile-view.footer .copyright a.twt {
     width: 48px;
@@ -1233,19 +1335,19 @@ span.via a {
     background: url(../images/icon_fb.png) no-repeat;
   }
 
-  /* line 1069, ../sass/custom.scss */
+  /* line 1142, ../sass/custom.scss */
   .mobile-view.footer .copyright a.twt {
     background: url(../images/icon_twitter.png) no-repeat;
   }
 
-  /* line 1073, ../sass/custom.scss */
+  /* line 1146, ../sass/custom.scss */
   .mobile-view.footer .copyright span {
     display: block;
     clear: both;
     margin-left: 15px;
   }
 
-  /* line 1079, ../sass/custom.scss */
+  /* line 1152, ../sass/custom.scss */
   .mobile-wrap {
     width: 78px;
     height: 1200px;
@@ -1254,19 +1356,19 @@ span.via a {
   }
 }
 @media (max-width: 1152px) {
-  /* line 1090, ../sass/custom.scss */
+  /* line 1163, ../sass/custom.scss */
   .nav.nav-pills a,
   .btn.buy {
     font-size: 14px;
     font-weight: normal;
   }
 
-  /* line 1095, ../sass/custom.scss */
+  /* line 1168, ../sass/custom.scss */
   a.cross {
     margin-left: 0;
   }
 
-  /* line 1099, ../sass/custom.scss */
+  /* line 1172, ../sass/custom.scss */
   a.herder {
     margin-left: 30px;
   }

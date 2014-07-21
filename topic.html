@@ -12,6 +12,17 @@
       <script src="http://code.jquery.com/jquery.js"></script>
       <script src="js/jquery-ui.min.js"></script>
       <script src="js/custom.js"></script>
+      <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+      <script type="text/javascript">
+       $( document ).ready(function() {
+        var container = document.querySelector('#massonry');
+        var msnry = new Masonry( container, {
+          itemSelector: '.item',
+          columnWidth: container.querySelector('.grid-sizer'),
+          
+        });
+        });
+      </script>
       
       
   </head>
@@ -227,38 +238,66 @@
         
         <a class="btn more"><span>View More...</span></a>
         
-        <div class="row related">
-        <div class="col-md-12 h-div"><span>Related Contents (45)</span></div>
-        <div class="col-md-6">
-          <div class="rel-content">
-            <img src="images/youtube.jpg" /><!-- Replace with html youtube 564x430-->
-            <h4>Spiritual Reality - The Journey Within </h4>
-            <span class="via">via <a href="#">youtube.com</a></span>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="rel-content">
-            <h4>Every Dream Can Come True – The Easiest Formula</h4>
-            <span class="via">via <a href="#">redefineyourreality.com</a></span>
-            <p>If you have a dream, protect it. Nurture it with music, poetry, stories and books that inspire</p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="rel-content">
-            <img src="images/spiritual.jpg" />
-            <h4>Spiritual Journey</h4>
-            <span class="via">via <a href="#">godtalkstoyou.com</a>
-          </div>
-        </div>
-        <div class="col-md-6 half">
-          <div class="rel-content">
-            12312451
-          </div>
-        </div>
         
-        </div>
         
     </div>
+    
+    
+    <div class="container-fluid related">
+      <div class="row">
+      <div class="col-md-12 h-div"><span>Related Contents</span></div>
+        <div id="massonry">
+          <div class="grid-sizer"></div>
+          
+          <div class="item">
+            <div class="rel-container">
+              <div class="rel-content">
+                <img src="images/youtube.jpg" />
+                <h4>Spiritual Reality - The Journey Within </h4>
+                <span class="via">via <a href="#">youtube.com</a></span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="item w2">
+            <div class="rel-container">
+              <div class="rel-content">
+                <h4>Every Dream Can Come True – The Easiest Formula</h4>
+                <span class="via">via <a href="#">redefineyourreality.com</a></span><span class="dots">· · ·</span>
+                <p>If you have a dream, protect it. Nurture it with music, poetry, stories and books that inspire</p>
+                <a href="#" class="btn">Read More</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="item w2">
+            <div class="rel-container">
+              <div class="rel-content">
+                <img src="images/spiritual.jpg" />
+                <h4>Spiritual Journey</h4>
+                <span class="via">via <a href="#">godtalkstoyou.com</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="item">
+            <div class="rel-container">
+              <div class="rel-content">
+                <div class="author-image">
+                  <img src="images/author.jpg" alt="" class="img-circle"/>
+                </div>
+                <p class="review"><span>“</span>Focus on the journey, not the destination. Joy is found not in finishing an activity but in doing it.<span>”</span><span class="author">— The Other Side</span>
+</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+        
+        
+    
     
     <div class="container-fluid" id="footer">
         <div class="container">

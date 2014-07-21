@@ -786,37 +786,29 @@ a.btn.more {
         height:95px;
     }
     
-.row.related .col-md-3,
-.row.related .col-md-6.half{
-    background: #fff;
-   
+
+.rel-content {
+    text-align: center
 }
 
-.row.related {
-    margin-bottom: 60px;
-}
-
-.row.related div {
-    margin-bottom: 20px;
-}
-
-.row.related .rel-content {
-    border: 1px solid #e5e5e5;
-    text-align: center;
-}
-
-.row.related .rel-content h4 {
+.related .rel-content h4 {
     font-size: 16px;
     color: #000;
     font-weight: bold;
     margin: 15px 0 0 0;
+    padding: 0 15px;
 }
 
-.row.related .rel-content span.via {
+.rel-content span.via {
     font-size: 13px;
     display: block;
-    padding-bottom: 15px;
+   
 }
+
+.row.related {
+    margin-left: -20px;
+}
+
 
 span.via a {
     color: $brand-color;
@@ -826,10 +818,82 @@ span.via a {
     width: 100%;
 }
 
-.row.related .col-md-6 {
-    height: 520px;
-    background: #fff;
+.rel-content p {
+    padding:0 15px 0 15px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.rel-content .dots {
+    font-size: 24px;
+    display:block;
+    color: #bbb;
+    font-weight: bold;
+}
+
+.rel-content .author-image img {
+    width: 115px;
+    border-width: 3px;
+}
+
+.rel-content .author-image {
+    margin-top: 20px;
+}
+
+.rel-content p.review {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.rel-content span.author {
+    font-style: normal;
+    font-weight: normal;
+    color:#222 !important;
+    font-size: 16px !important;
+    text-align: left;
+    padding-left: 15px !important;
     
+}
+
+.rel-content a.btn {
+    background: #bbb;
+    color:#fff;
+    display: block;
+    margin-bottom: 15px;
+    width: 50%;
+    height: 40px;
+    line-height: 24px;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+.rel-content a.btn:hover {
+    background: $brand-color;
+     
+}
+
+.item { float: left; width: 50%;}
+.item.w2 {width:25%}
+.grid-sizer { width: 25%; }
+
+.rel-container {
+    padding: 10px;
+}
+
+.rel-content {
+    border: 1px solid #ccc;
+    padding-bottom: 20px;
+    
+}
+
+.container-fluid.related {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+#massonry {
+    margin-top: 80px;
 }
 
 @media (max-width: 1000px) {
@@ -843,6 +907,14 @@ input::-moz-placeholder {color:#fff !important;}
         height: 140px;
     }
     
+    .item {float: left; width: 100%;}
+.item.w2 {width:50%}
+.grid-sizer { width: 50%; }
+
+#massonry {
+    margin-top:0;
+}
+    
     .explore-topic p {
         width: 500px;
         margin: 0 auto;
@@ -852,6 +924,7 @@ input::-moz-placeholder {color:#fff !important;}
         height:0
     }
     
+      
     .navbar-header {
         top: -95px;
 position: relative;
