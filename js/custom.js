@@ -1,10 +1,10 @@
   $(document).ready(function(){
 
     $(".navbar-toggle").click(function () {
-      
       $(".navbar-header").hide();
+      $("html, body").animate({ scrollTop: 0}, 1);
       $(".mobile-menu").show("slide", { direction: "right" }, 350);
-      
+      $("body").addClass("full");
       
     });
     

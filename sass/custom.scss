@@ -633,14 +633,14 @@ a.btn.more {
     top:0;
     left:0;
     width: 100%;
-    height: 1600px;
+    height: 1000px;
     z-index:9999;
 }
 
 
 .mobile-menu .left-column {
     width: 78px;
-    height: 1600px;
+    height: 1000px;
     float: left;
     background: #fff;
 }
@@ -890,6 +890,11 @@ span.via a {
 .container-fluid.related {
     margin-top: 20px;
     margin-bottom: 60px;
+}
+
+body.full .container,
+body.full .container-fluid {
+    display: none;
 }
 
 #massonry {
