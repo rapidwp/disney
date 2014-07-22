@@ -633,14 +633,14 @@ a.btn.more {
     top:0;
     left:0;
     width: 100%;
-    height: 1000px;
+    height: 1920px;
     z-index:9999;
 }
 
 
 .mobile-menu .left-column {
     width: 78px;
-    height: 1000px;
+    height: 1920px;
     float: left;
     background: #fff;
 }
@@ -923,6 +923,11 @@ input::-moz-placeholder {color:#fff !important;}
     .explore-topic p {
         width: 500px;
         margin: 0 auto;
+    }
+    
+    .col-md-5 h1.logo {
+        width: 360px;
+        overflow: hidden;
     }
     
     .sticky-fix {
