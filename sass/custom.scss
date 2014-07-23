@@ -645,6 +645,48 @@ a.btn.more {
     background: #fff;
 }
 
+@media (max-height: 1920px) {
+    .mobile-menu,
+    .mobile-menu .left-column {
+        height: 1920px;
+    }
+}
+
+@media (max-height: 1600px) {
+    .mobile-menu,
+    .mobile-menu .left-column {
+        height: 1600px;
+    }
+}
+
+@media (max-height: 1400px) {
+    .mobile-menu,
+    .mobile-menu .left-column {
+        height: 1400px;
+    }
+}
+
+@media (max-height: 1200px) {
+    .mobile-menu,
+    .mobile-menu .left-column {
+        height: 1200px;
+    }
+}
+
+@media (max-height: 1024px) {
+    .mobile-menu,
+    .mobile-menu .left-column {
+        height: 1200px;
+    }
+}
+
+@media (max-height: 800px) {
+    .mobile-menu,
+    .mobile-menu .left-column {
+        height: 1200px;
+    }
+}
+
 .mob-collapse {
     background: #fff url(../images/mob-collapse.png) no-repeat left 11px;
     width: 78px;
