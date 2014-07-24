@@ -972,6 +972,15 @@ input::-moz-placeholder {color:#fff !important;}
         overflow: hidden;
     }
     
+    .row.about,
+    .row.author,
+    .author-image {
+        margin-top: 0;
+    }
+    
+    
+    
+       
     .sticky-fix {
         height:0
     }
