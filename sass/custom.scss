@@ -939,6 +939,19 @@ body.full .container-fluid {
     display: none;
 }
 
+.book-image {
+    margin-bottom: 20px;
+}
+
+.book-image img {
+    width:180px;
+    height: auto;
+    -webkit-box-shadow: #666 0px 4px 15px;
+    -moz-box-shadow: #666 0px 4px 15px;
+    box-shadow: #666 0px 4px 15px;
+    behavior: url(css/pie/PIE.htc);
+}
+
 #massonry {
     margin-top: 80px;
 }
@@ -978,7 +991,14 @@ input::-moz-placeholder {color:#fff !important;}
         margin-top: 0;
     }
     
+    .container.topic {
+        padding: 0;
+        margin-top:-40px;
+    }
     
+    .row.topic-banner {
+        margin-top: 0
+    }
     
        
     .sticky-fix {
