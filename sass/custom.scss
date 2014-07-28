@@ -952,6 +952,15 @@ body.full .container-fluid {
     behavior: url(css/pie/PIE.htc);
 }
 
+.also-bouht a img {
+    -webkit-box-shadow: #666 0px 4px 15px;
+    -moz-box-shadow: #666 0px 4px 15px;
+    box-shadow: #666 0px 4px 15px;
+    behavior: url(css/pie/PIE.htc);
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
 #massonry {
     margin-top: 80px;
 }
